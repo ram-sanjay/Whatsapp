@@ -1,0 +1,28 @@
+{
+    "securityGroupId": "sg-",
+    "alb_securityGroupId":"sg-",
+    "prod_alb_securityGroupId":"sg-",
+    "vpc_id": "vpc-",
+    "availability_zones": [
+      "ap-south-1a",
+      "ap-south-1b",
+      "ap-south-1c" 
+    ],
+    "public_subnet_ids": [
+      "subnet-",
+      "subnet-",
+      "subnet-"
+    ],
+    "private_subnet_ids": [
+      "subnet-",
+      "subnet-",
+      "subnet-"
+    ],
+    "instance_type":"m5a.xlarge",
+    "ssl_certificate_arn" : "arn:aws:acm:ap-south-1::certificate/fbda7a3d-6309-429e-a2ba-4fc4cc240457",
+    "prod_alb_arn" : "arn:aws:elasticloadbalancing:ap-south-1::loadbalancer/app/WA-PROD-ALB/f0db71c72d16618c",
+    "role_arn": "arn:aws:iam:::role/WA-Prod-Role",
+    "region": "ap-south-1",
+    "test_target_group" : "TestTargetGroup",
+    "prod_target_group" : "ProdTargetGroup"
+  }
